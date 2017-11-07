@@ -26,7 +26,7 @@ public class Animals {
             System.out.println(i);
             animals[i].eatFood();
         }
-        animals[1].age();
+        animals[1].eatFood();
 
     }
 
