@@ -17,8 +17,6 @@ public class AnimalsTest extends TestCase {
     public void testEatFood(){
         
         Animals[] animals = new Animals[4];
-        animals[0] = new Carnivorous();
-        animals[1] = new Herbivorous();
         
     }
     
