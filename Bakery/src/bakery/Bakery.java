@@ -43,15 +43,20 @@ public class Bakery {
         Button border_btn = new Button();
         Button box_btn = new Button();
         Button flow_btn = new Button();
-        Button button_east = new Button("EAST");
-        Button button_west = new Button("WEST");
-        Button button_north = new Button("NORTH");
+        Button button_east = new Button("EASTERN");
+        Button button_west = new Button("WESTERN");
+        Button button_north = new Button("NORTHERN");
+        Button btn_other = new Button("Other Happy BTN");
+        panel_b.add(button_east);
+        panel_b.add(btn_other);
+        panel_b.add(button_west);
+        panel_b.add(button_north);
 
         frame.getContentPane().add(panel_a);
-        frame.getContentPane().add(BorderLayout.EAST, button_east);
+        frame.getContentPane().add(BorderLayout.EAST, panel_b);
         frame.getContentPane().add(BorderLayout.WEST, button_west);
         frame.getContentPane().add(BorderLayout.NORTH, button_north);
-        frame.setSize(300, 300);
+        frame.setSize(1100, 800);
         frame.setVisible(true);
 
     }
